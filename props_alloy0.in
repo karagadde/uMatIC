@@ -1,0 +1,26 @@
+my_name zerosolute
+Cinit                75.0      /* CA_FLOAT Cinit */
+Dliq                 2.0e-9     /* CA_FLOAT Dliq */
+Dsol0                1.0e-12    /* CA_FLOAT Dsol[0] */
+# other diffusivities for phases if using multiphase
+#Dsol1                 2e-12    /* CA_FLOAT Dsol[1] */
+
+/* type of source - select the function */
+/* 0=NONE, 1=CONST, 2=DIFF, 3=PLIN 4=FLUX*/
+mould_src            0
+
+/* multiplier for the source function */
+mould_source_value   1  /* CA_FLOAT mould_source_value */
+
+mould_src_pert       0  /* int mould_src_pert */
+part_coef0            0.25  /* CA_FLOAT part_coef */
+m_solute0            -1.8    /* CA_FLOAT m_solute -0.6770 */
+
+/* c_eut                78.0  /* CA_FLOAT c_eut */
+
+
+T_eut                288.3  /* CA_FLOAT T_eut */
+
+
+#T_pure                1417.81  
+surf_tens_coef       1.0e-7   /* CA_FLOAT surf_tens_coef */
